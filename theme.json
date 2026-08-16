@@ -1,0 +1,88 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "color": {
+      "custom": false,
+      "palette": [
+        { "slug": "violet", "name": "Violet", "color": "#4A44D4" },
+        { "slug": "violet-soft", "name": "Violet Soft", "color": "#7B77E0" },
+        { "slug": "violet-light", "name": "Violet Light", "color": "#EEEDFE" },
+        { "slug": "ink", "name": "Ink", "color": "#0B0A1A" },
+        { "slug": "muted", "name": "Muted", "color": "#7A7A8C" },
+        { "slug": "background", "name": "Background", "color": "#F8F7F4" },
+        { "slug": "white", "name": "White", "color": "#FFFFFF" },
+        { "slug": "success", "name": "Success", "color": "#1D9E75" },
+        { "slug": "warning", "name": "Warning", "color": "#BA7517" }
+      ]
+    },
+    "layout": {
+      "contentSize": "760px",
+      "wideSize": "1160px"
+    },
+    "spacing": {
+      "units": ["px", "rem", "%", "vw"]
+    },
+    "typography": {
+      "customFontSize": false,
+      "fluid": true,
+      "fontFamilies": [
+        {
+          "fontFamily": "Bricolage Grotesque, sans-serif",
+          "name": "Bricolage Grotesque",
+          "slug": "display"
+        },
+        {
+          "fontFamily": "DM Sans, sans-serif",
+          "name": "DM Sans",
+          "slug": "body"
+        }
+      ],
+      "fontSizes": [
+        { "slug": "xs", "size": "12px", "name": "XS" },
+        { "slug": "sm", "size": "14px", "name": "SM" },
+        { "slug": "md", "size": "16px", "name": "MD" },
+        { "slug": "lg", "size": "20px", "name": "LG" },
+        { "slug": "xl", "size": "32px", "name": "XL" },
+        { "slug": "hero", "size": "clamp(38px, 4vw, 60px)", "name": "Hero" }
+      ]
+    }
+  },
+  "styles": {
+    "color": {
+      "background": "#FFFFFF",
+      "text": "#0B0A1A"
+    },
+    "typography": {
+      "fontFamily": "var(--wp--preset--font-family--body)",
+      "lineHeight": "1.7"
+    },
+    "elements": {
+      "heading": {
+        "typography": {
+          "fontFamily": "var(--wp--preset--font-family--display)",
+          "fontWeight": "800",
+          "lineHeight": "1.12"
+        }
+      },
+      "button": {
+        "border": {
+          "radius": "999px"
+        },
+        "spacing": {
+          "padding": {
+            "top": "14px",
+            "right": "28px",
+            "bottom": "14px",
+            "left": "28px"
+          }
+        },
+        "typography": {
+          "fontSize": "14px",
+          "fontWeight": "500"
+        }
+      }
+    }
+  }
+}
